@@ -1,9 +1,9 @@
 # Tone Spiral
 
-I wanted to explore the physics of sound.
+I want to visually explore the physics of sound.
 
 For any vibrating medium (string, drumhead, air) the wavelength of each higher
-octave is double the length of the fundamental.
+octave is half the length of the fundamental.
 Therefore a logarithmic spiral (having growth coefficient 2) presents each octave
 as a full 360&#176; rotation. This gives me some interesting properties to
 explore:
