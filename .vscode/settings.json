@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "prettier.configPath": "",
+  "editor.formatOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.codeActionsOnSave.rules": null
+}
