@@ -1,8 +1,15 @@
 import React from "react";
+import AppBar from "./AppBar";
+import Container from "@mui/system/Container";
 import "./App.css";
 
 function App() {
-  return <div>This is a tone spiral</div>;
+  return (
+    <>
+      <AppBar />
+      <Container className="page"></Container>
+    </>
+  );
 }
 
 export default App;
