@@ -29,6 +29,14 @@ body {
 }
 
 #page {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 4fr 10fr;
+}
+
+@media only screen and (orientation: landscape) and (min-width: 415px) {
+  #page {
+    grid-template-columns: 1fr 2fr 4fr 10fr;
+    grid-template-rows: 1fr;
+  }
 }
