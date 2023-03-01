@@ -1,17 +1,40 @@
 import React from "react";
 import AppBar from "./AppBar";
-import Container from "@mui/system/Container";
+import Box from "@mui/joy/Box";
+import { ThemeProvider, createTheme } from "@mui/system";
+import ControlPanel from "./ControlPanel";
 import SpiralCanvas from "./SpiralCanvas";
+import SpiralsQueue from "./SpiralsQueue";
 import "./App.css";
+
+const theme = createTheme({
+  palette: {
+    background: {
+      paper: "#fff",
+    },
+    text: {
+      primary: "#222",
+      secondary: "#444",
+    },
+    action: {
+      active: "#ff9180",
+    },
+    success: {
+      dark: "#801100",
+    },
+  },
+});
 
 function App() {
   return (
-    <>
-      <AppBar />
-      <Container className="page">
+    <ThemeProvider theme={theme}>
+      <Box id="page">
+        <AppBar />
+        <ControlPanel />
+        <SpiralsQueue />
         <SpiralCanvas />
-      </Container>
-    </>
+      </Box>
+    </ThemeProvider>
   );
 }
 

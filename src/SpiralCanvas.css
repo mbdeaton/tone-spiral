@@ -1,0 +1,4 @@
+.canvas {
+  height: 100vw; /* DEBUG */
+  border: dotted black 0.5px; /* DEBUG */
+}
