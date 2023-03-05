@@ -1,6 +1,8 @@
 # References for Tone-Spiral Development
 
-### Files
-* `logo*base.svg`. Source files for the logos.
-* `wireframe*.svg`. UI mockups.
+Brett Deaton - Winter/Spring 2023
 
+### Files
+
+- `logo*base.svg`. Source files for the logos.
+- `wireframes.drawio.svg`. UI mockups.
