@@ -5,7 +5,7 @@ Planned data model and component architecture of the Tone Spiral app.
 
 
 ## React Components
-* ToneSpiralInstrument
+* ToneSpiralExplorer
   - AppBar
   - ControlBox
     - TuningButtonGroup
