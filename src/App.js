@@ -4,7 +4,7 @@ import Box from "@mui/joy/Box";
 import { ThemeProvider, createTheme } from "@mui/system";
 import ControlBox from "./ControlBox";
 import SpiralCanvas from "./SpiralCanvas";
-import SpiralsQueue from "./SpiralsQueue";
+import ChordTray from "./ChordTray";
 import "./App.css";
 
 const theme = createTheme({
@@ -31,7 +31,7 @@ function App() {
       <Box id="page">
         <AppBar />
         <ControlBox />
-        <SpiralsQueue />
+        <ChordTray />
         <SpiralCanvas />
       </Box>
     </ThemeProvider>
