@@ -3,7 +3,7 @@ import AppBar from "./AppBar";
 import Box from "@mui/joy/Box";
 import { ThemeProvider, createTheme } from "@mui/system";
 import ControlBox from "./ControlBox";
-import SpiralCanvas from "./SpiralCanvas";
+import SpiralBox from "./SpiralBox";
 import ChordTray from "./ChordTray";
 import "./App.css";
 
@@ -32,7 +32,7 @@ function App() {
         <AppBar />
         <ControlBox />
         <ChordTray />
-        <SpiralCanvas />
+        <SpiralBox />
       </Box>
     </ThemeProvider>
   );
