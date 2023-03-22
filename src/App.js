@@ -2,7 +2,7 @@ import React from "react";
 import AppBar from "./AppBar";
 import Box from "@mui/joy/Box";
 import { ThemeProvider, createTheme } from "@mui/system";
-import ControlPanel from "./ControlPanel";
+import ControlBox from "./ControlBox";
 import SpiralCanvas from "./SpiralCanvas";
 import SpiralsQueue from "./SpiralsQueue";
 import "./App.css";
@@ -30,7 +30,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Box id="page">
         <AppBar />
-        <ControlPanel />
+        <ControlBox />
         <SpiralsQueue />
         <SpiralCanvas />
       </Box>
