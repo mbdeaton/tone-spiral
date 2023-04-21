@@ -1,3 +1,7 @@
 .control-box {
   border: dotted black 0.5px; /* DEBUG */
 }
+
+.control-box Button {
+  font-size: 12px;
+}
